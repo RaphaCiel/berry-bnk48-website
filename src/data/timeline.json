@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2022-10-30",
+    "title": {
+      "th": "เข้าร่วม BNK48",
+      "en": "Joined BNK48"
+    },
+    "description": {
+      "th": "เบอร์รี่เข้าร่วม BNK48 ในฐานะ Trainee รุ่นที่ 4",
+      "en": "Berry joined BNK48 as a 4th Generation Trainee"
+    },
+    "type": "milestone",
+    "icon": "star"
+  },
+  {
+    "date": "2023-02-26",
+    "title": {
+      "th": "First Performance",
+      "en": "First Performance"
+    },
+    "description": {
+      "th": "แสดง Iiwake Maybe First Performance ร่วมกับ BNK48",
+      "en": "Performed in Iiwake Maybe First Performance with BNK48"
+    },
+    "type": "performance",
+    "icon": "music"
+  },
+  {
+    "date": "2023-03-03",
+    "title": {
+      "th": "BNK48 & CGM48 Matsuri 2023",
+      "en": "BNK48 & CGM48 Matsuri 2023"
+    },
+    "description": {
+      "th": "ร่วมแสดงในงาน BNK48 & CGM48 Matsuri 2023",
+      "en": "Participated in BNK48 & CGM48 Matsuri 2023"
+    },
+    "type": "event",
+    "icon": "calendar"
+  },
+  {
+    "date": "2023-04-09",
+    "title": {
+      "th": "Janken Tournament 2023",
+      "en": "Janken Tournament 2023"
+    },
+    "description": {
+      "th": "เข้าร่วมการแข่งขัน Janken Tournament 2023 รอบที่ 1",
+      "en": "Participated in Janken Tournament 2023 Round 1"
+    },
+    "type": "competition",
+    "icon": "hand"
+  },
+  {
+    "date": "2023-12-01",
+    "title": {
+      "th": "4th Senbatsu Election",
+      "en": "4th Senbatsu Election"
+    },
+    "description": {
+      "th": "ได้อันดับ #60 ใน 4th Senbatsu Sousenkyo",
+      "en": "Ranked #60 in 4th Senbatsu Sousenkyo"
+    },
+    "type": "election",
+    "icon": "award"
+  },
+  {
+    "date": "2025-06-01",
+    "title": {
+      "th": "5th Senbatsu Election",
+      "en": "5th Senbatsu Election"
+    },
+    "description": {
+      "th": "ได้อันดับ #44 ใน 5th Senbatsu General Election - ดีขึ้น 16 อันดับ!",
+      "en": "Ranked #44 in 5th Senbatsu General Election - Improved 16 ranks!"
+    },
+    "type": "election",
+    "icon": "trending-up"
+  },
+  {
+    "date": "2025-07-13",
+    "title": {
+      "th": "โปรโมทเข้า Team NV",
+      "en": "Promoted to Team NV"
+    },
+    "description": {
+      "th": "ได้รับโปรโมทจาก Trainee เข้าสู่ Team NV อย่างเป็นทางการ",
+      "en": "Officially promoted from Trainee to Team NV"
+    },
+    "type": "milestone",
+    "icon": "trophy"
+  }
+]

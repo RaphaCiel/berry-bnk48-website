@@ -1,0 +1,67 @@
+{
+  "singles": {
+    "asides": [
+      {
+        "title": "12-gatsu no Kangaroo",
+        "titleTh": "จิงโจ้น้อยเดือนธันวาคม",
+        "single": "12-gatsu no Kangaroo",
+        "year": 2023,
+        "position": "Senbatsu",
+        "type": "A-Side"
+      }
+    ],
+    "bsides": [
+      {
+        "title": "Shoujotachi yo",
+        "titleTh": "วันใหม่",
+        "single": "Iiwake Maybe",
+        "singleTh": "ข้อแก้ตัว Maybe",
+        "year": 2023,
+        "type": "B-Side"
+      },
+      {
+        "title": "Tsuyosa to Yowasa no Aida de",
+        "titleTh": "สุดท้ายที่อยากบอก",
+        "single": "Promise",
+        "year": 2024,
+        "type": "B-Side"
+      },
+      {
+        "title": "Saikyou Twintail",
+        "titleTh": "ทวินเทลสุดแกร่ง",
+        "single": "Green Flash",
+        "year": 2024,
+        "type": "B-Side"
+      }
+    ],
+    "others": [
+      {
+        "title": "Jingle Bells",
+        "titleTh": "จิงเกิลเบลล์",
+        "single": "Digital Single",
+        "year": 2023,
+        "type": "Digital"
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "title": "Senbatsu Member",
+      "description": "ได้รับเลือกเข้า Senbatsu เพลง 12-gatsu no Kangaroo",
+      "year": 2023,
+      "icon": "star"
+    },
+    {
+      "title": "5th Senbatsu Election",
+      "description": "อันดับ #44 - ดีขึ้นจากครั้งก่อน 16 อันดับ",
+      "year": 2025,
+      "icon": "trophy"
+    },
+    {
+      "title": "Team NV Promotion",
+      "description": "ได้รับโปรโมทเข้า Team NV อย่างเป็นทางการ",
+      "year": 2025,
+      "icon": "award"
+    }
+  ]
+}

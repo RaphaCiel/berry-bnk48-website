@@ -1,0 +1,61 @@
+{
+  "name": {
+    "th": "จิรภิญญา ฉันทวรรณกุล",
+    "en": "Jirapinya Chantawannakul",
+    "nickname": "เบอร์รี่",
+    "nicknameEn": "Berry"
+  },
+  "team": "Team NV",
+  "generation": "4th Generation",
+  "birthplace": {
+    "th": "พิษณุโลก, ประเทศไทย",
+    "en": "Phitsanulok, Thailand"
+  },
+  "lightstickColors": ["#22c55e", "#a3e635"],
+  "lightstickColorNames": {
+    "th": ["สีเขียว", "สีเขียวอ่อน"],
+    "en": ["Green", "Yellow-Green"]
+  },
+  "joinDate": "2022-10-30",
+  "promoteDate": "2025-07-13",
+  "likes": {
+    "th": ["กินอาหารที่แม่ทำ", "ดู Mukbang"],
+    "en": ["Eating Mother's Food", "Watching Mukbang"]
+  },
+  "hobbies": {
+    "th": ["ดูละคร", "ดู TikTok", "ร้องเพลง", "เต้น", "นอน"],
+    "en": ["Watching Dramas", "Watching TikTok", "Singing", "Dancing", "Sleeping"]
+  },
+  "facts": [
+    {
+      "th": "เป็นคนสุดท้ายจากรุ่น 4 ที่ได้รับเลือกเข้า Senbatsu",
+      "en": "The last 4th Generation member to be selected for Senbatsu"
+    }
+  ],
+  "elections": [
+    {
+      "name": "4th Senbatsu Election",
+      "year": 2023,
+      "rank": 60
+    },
+    {
+      "name": "5th Senbatsu Election",
+      "year": 2025,
+      "rank": 44
+    }
+  ],
+  "janken": [
+    {
+      "name": "2nd Janken Competition",
+      "year": 2023,
+      "result": "Round 1",
+      "opponent": "Champoo"
+    }
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/bnk48official.berry",
+    "instagram": "https://www.instagram.com/berry.bnk48official/",
+    "tiktok": "https://www.tiktok.com/@berry.bnk48official",
+    "youtube": "https://www.youtube.com/results?search_query=berry+bnk48"
+  }
+}
