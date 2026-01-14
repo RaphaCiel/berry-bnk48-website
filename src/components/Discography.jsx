@@ -137,14 +137,6 @@ export default function Discography() {
           {/* Achievement Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {discography.achievements.map((achievement, i) => {
-              // Logic to center the last item if it's alone in the last row
-              // For 3 columns:
-              // If total % 3 == 1 (1 item in last row) -> col-start-2
-              // If total % 3 == 2 (2 items in last row) -> nothing special usually, or optimize
-              // Current logic was: isLastOdd (total 3 items) -> index 2 (3rd item) -> col-start-2
-              // But if we have 3 items, they fit in one row 3-cols.
-              // Let's stick to standard grid for consistent look, or use flex verify.
-              // User wants it "Like Discography". Discography is standard grid.
               return (
               <motion.div
                 key={i}
@@ -152,7 +144,7 @@ export default function Discography() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className={`flex flex-col items-center justify-center p-6 rounded-xl bg-slate-800/30 hover:bg-slate-800/50 transition-all border border-transparent hover:border-pink-500/20 ${isLastOdd ? 'md:col-start-2' : ''}`}
+                className="flex flex-col items-center justify-center p-6 rounded-xl bg-slate-800/30 hover:bg-slate-800/50 transition-all border border-transparent hover:border-pink-500/20"
               >
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-green-400 via-pink-400 to-purple-400 flex items-center justify-center mb-4 shadow-lg shadow-pink-500/10">
                   <Award className="text-white drop-shadow-md" size={32} />
