@@ -121,10 +121,10 @@ export default function Discography() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-48 md:mt-64"
+          className="mt-80 md:mt-96 pb-32 md:pb-48"
         >
           {/* Section Header - Same style as other sections */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-24">
             <span className="badge mb-4 inline-block">ความสำเร็จ</span>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <span className="gradient-text">Achievements</span>
