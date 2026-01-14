@@ -5,7 +5,7 @@
         "title": "12-gatsu no Kangaroo",
         "titleTh": "จิงโจ้น้อยเดือนธันวาคม",
         "single": "12-gatsu no Kangaroo",
-        "image": "12-gatsu no Kangaroo.png",
+        "image": "/images/12-gatsu no Kangaroo.png",
         "year": 2025,
         "position": "Senbatsu",
         "type": "A-Side"
@@ -17,7 +17,7 @@
         "titleTh": "วันใหม่",
         "single": "Iiwake Maybe",
         "singleTh": "ข้อแก้ตัว Maybe",
-        "image": "Shoujotachi yo.png",
+        "image": "/images/Shoujotachi yo.png",
         "year": 2023,
         "type": "B-Side"
       },
@@ -25,7 +25,7 @@
         "title": "Tsuyosa to Yowasa no Aida de",
         "titleTh": "สุดท้ายที่อยากบอก",
         "single": "Promise",
-        "image": "Tsuyosa to Yowasa no Aida de.png",
+        "image": "/images/Tsuyosa to Yowasa no Aida de.png",
         "year": 2024,
         "type": "B-Side"
       },
@@ -33,7 +33,7 @@
         "title": "Saikyou Twintail",
         "titleTh": "ทวินเทลสุดยอดเลย!",
         "single": "Green Flash",
-        "image": "Green Flash.png",
+        "image": "/images/Green Flash.png",
         "year": 2025,
         "type": "B-Side"
       }

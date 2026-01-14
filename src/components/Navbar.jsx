@@ -34,10 +34,11 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
           <img
-            src="/images/logo.svg"
-            alt="BerryFestival"
-            className="h-12 w-auto object-contain hover:scale-105 transition-transform duration-300"
+            src="/images/logo.png"
+            alt="Logo"
+            className="w-10 h-10 rounded-full object-cover"
           />
+          <span className="text-xl font-bold gradient-text"> BerryFestival</span>
         </a>
 
         {/* Desktop Navigation */}
