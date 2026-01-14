@@ -62,52 +62,54 @@ export default function Timeline() {
             return (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, x: 0, y: 20 }}
+                initial={{ opacity: 0, x: isLeft ? -50 : 50, y: 20 }}
                 whileInView={{ opacity: 1, x: 0, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className={`relative flex items-center mb-12 md:mb-16 ${isLeft ? 'md:flex-row' : 'md:flex-row-reverse'}`}
+                className="relative flex items-center mb-12 md:mb-16 md:justify-between"
               >
-                {/* Mobile: Space for line / Desktop: Left Content */}
-                <div className={`hidden md:block md:w-5/12 ${isLeft ? 'text-right pr-12' : 'pl-12'}`}>
+                {/* Desktop Left Column */}
+                <div className="hidden md:block md:w-[45%] text-right pr-8">
                   {isLeft && (
                     <div className="card hover:border-pink-500/30 transition-colors inline-block text-right w-full">
                       <span className="text-sm text-green-400 font-medium block mb-1">
                         {formatDate(item.date)}
                       </span>
                       <h3 className="text-xl font-bold mb-2">{item.title.th}</h3>
-                      <p className="text-gray-300 text-sm">{item.description.th}</p>
+                      <p className="text-gray-300 text-sm leading-relaxed">{item.description.th}</p>
                     </div>
                   )}
                 </div>
 
-                {/* Center Icon - Shared */}
+                {/* Center Icon - Absolute Center on Desktop, Left on Mobile */}
                 <div className="absolute left-8 md:left-1/2 -translate-x-1/2 flex items-center justify-center z-10">
-                  <div className={`w-12 h-12 md:w-14 md:h-14 rounded-full bg-gradient-to-br ${gradientClass} flex items-center justify-center shadow-lg border-4 border-slate-900 group`}>
-                    <Icon className="text-white group-hover:scale-110 transition-transform" size={20} />
+                  <div className={`w-12 h-12 md:w-16 md:h-16 rounded-full bg-slate-900 border-4 border-slate-800 flex items-center justify-center shadow-lg group relative overflow-hidden`}>
+                     {/* Gradient Background */}
+                     <div className={`absolute inset-0 bg-gradient-to-br ${gradientClass} opacity-20 group-hover:opacity-100 transition-opacity duration-300`} />
+                     <Icon className="text-white relative z-10 group-hover:scale-110 transition-transform duration-300" size={24} />
                   </div>
                 </div>
 
-                {/* Mobile Content (Always Right) */}
-                <div className="md:hidden pl-20 pr-4 w-full text-left">
+                {/* Mobile Content (Always Right of line) */}
+                <div className="md:hidden pl-24 pr-4 w-full">
                   <div className="card hover:border-pink-500/30 transition-colors w-full">
                     <span className="text-sm text-green-400 font-medium block mb-1">
                       {formatDate(item.date)}
                     </span>
                     <h3 className="text-lg font-bold mb-2">{item.title.th}</h3>
-                    <p className="text-gray-300 text-sm">{item.description.th}</p>
+                    <p className="text-gray-300 text-sm leading-relaxed">{item.description.th}</p>
                   </div>
                 </div>
 
-                {/* Desktop: Right Content */}
-                <div className={`hidden md:block md:w-5/12 ${!isLeft ? 'text-left pl-12' : 'pr-12'}`}>
+                {/* Desktop Right Column */}
+                <div className="hidden md:block md:w-[45%] text-left pl-8">
                   {!isLeft && (
                     <div className="card hover:border-pink-500/30 transition-colors inline-block text-left w-full">
                       <span className="text-sm text-green-400 font-medium block mb-1">
                         {formatDate(item.date)}
                       </span>
                       <h3 className="text-xl font-bold mb-2">{item.title.th}</h3>
-                      <p className="text-gray-300 text-sm">{item.description.th}</p>
+                      <p className="text-gray-300 text-sm leading-relaxed">{item.description.th}</p>
                     </div>
                   )}
                 </div>
