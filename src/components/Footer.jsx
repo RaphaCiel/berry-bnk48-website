@@ -18,15 +18,15 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <div className="flex items-center gap-3 mb-4">
+            <div className="mb-4">
               <img 
-                src="/images/logo.png" 
-                alt="Logo" 
-                className="w-12 h-12 rounded-full object-cover"
+                src="/images/logo.svg" 
+                alt="BerryFestival" 
+                className="h-16 w-auto object-contain mb-2"
               />
               <div>
-                <h3 className="text-xl font-bold gradient-text">Berry BNK48</h3>
-                <p className="text-sm text-gray-500">Fan Website</p>
+                <h3 className="text-xl font-bold gradient-text sr-only">Berry BNK48</h3>
+                <p className="text-sm text-gray-400">Berry BNK48 Fan Website</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
