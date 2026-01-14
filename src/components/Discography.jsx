@@ -121,7 +121,7 @@ export default function Discography() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-24 md:mt-32"
+          className="mt-48 md:mt-64"
         >
           {/* Section Header - Same style as other sections */}
           <div className="text-center mb-12">
