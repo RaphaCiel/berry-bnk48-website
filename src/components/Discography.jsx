@@ -76,9 +76,19 @@ export default function Discography() {
 
                 {/* Song Info */}
                 <div className="flex items-start gap-4">
-                  <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${gradientClass} flex items-center justify-center flex-shrink-0`}>
-                    <Icon className="text-white" size={20} />
-                  </div>
+                  {song.image ? (
+                    <div className="w-16 h-16 rounded-xl overflow-hidden shadow-md flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
+                      <img 
+                        src={song.image} 
+                        alt={song.title} 
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  ) : (
+                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${gradientClass} flex items-center justify-center flex-shrink-0`}>
+                      <Icon className="text-white" size={20} />
+                    </div>
+                  )}
                   <div>
                     <h3 className="text-lg font-bold mb-1 group-hover:text-green-400 transition-colors">
                       {song.title}
